@@ -1,5 +1,7 @@
 # rg-matrix
-Python library to drive a 32x16 red/green LED matrix
+A Raspberry Pi daemon to drive a 32x16 red/green LED matrix.
+
+![Image of LED Matrix](images/s-l1600.jpg)
 
 ## Pinouts
 
