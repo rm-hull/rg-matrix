@@ -3,6 +3,11 @@ A Raspberry Pi daemon to drive a 32x16 red/green LED matrix.
 
 ![Image of LED Matrix](images/s-l1600.jpg)
 
+This board should be able to simulate (with PCM or B..) the
+[red-green color space](https://en.wikipedia.org/wiki/RG_color_space) as below:
+
+![Red-Green color space](images/200px-Redgreen.png)
+
 ## Pinouts
 
 | Board Pin | Name | Remarks                                            | RPi Pin | RPi Function |
