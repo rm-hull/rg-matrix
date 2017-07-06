@@ -15,19 +15,19 @@ This board should be able to simulate (with PCM or B..) the
 | 1         | GND  | Ground                                             | 6       | GND          |
 | 3         | GND  | Ground                                             | 6       | GND          |
 | 5         | GND  | Ground                                             | 6       | GND          |
-| 7         | OE   | 74HC595 Output Enable (Active Low)                 | tbc     |              |
-| 9         | R    | data input for 74HC595 (RED section / 4*74HC595)   | tbc     |              |
+| 7         | OE   | 74HC595 Output Enable (Active Low)                 | 11      | BCM 17       |
+| 9         | R    | data input for 74HC595 (RED section / 4*74HC595)   | 19      | BCM 10       |
 | 11        | VCC  | +5V Power                                          | 2       | 5V0          |
 | 13        | GND  | Ground                                             | 6       | GND          |
 | 15        | GND  | Ground                                             | 6       | GND          |
-| 2         | A    | row select wih 74HC138                             | tbc     |              |
-| 4         | B    | row select wih 74HC138                             | tbc     |              |
-| 6         | C    | row select wih 74HC138                             | tbc     |              |
-| 8         | D    | row select wih 74HC138                             | tbc     |              |
-| 10        | G    | data input for 74HC595 (GREEN section / 4*74HC595) | tbc     |              |
+| 2         | A    | row select wih 74HC138                             | 15      | BCM 22       |
+| 4         | B    | row select wih 74HC138                             | 16      | BCM 23       |
+| 6         | C    | row select wih 74HC138                             | 18      | BCM 24       |
+| 8         | D    | row select wih 74HC138                             | 22      | BCM 25       |
+| 10        | G    | data input for 74HC595 (GREEN section / 4*74HC595) | 21      | BCM 21       |
 | 12        | VCC  | +5V Power                                          | 2       | 5V0          |
-| 14        | STB  | 74HC595 Strobe / Data Latch                        | tbc     |              |
-| 16        | SCK  | 74HC595 Clock Input                                | tbc     |              |
+| 14        | STB  | 74HC595 Strobe / Data Latch                        | 24      | BCM 8        |
+| 16        | SCK  | 74HC595 Clock Input                                | 23      | BCM 11       |
 
 ## References
 
