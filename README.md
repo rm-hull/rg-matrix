@@ -1,5 +1,6 @@
 # rg-matrix
-A Raspberry Pi daemon to drive a 32x16 red/green LED matrix.
+A Raspberry Pi daemon to drive a 32x16 red/green LED matrix. These things
+arrive as a kit, so some careful surface mount soldering skills are needed.
 
 ![Image of LED Matrix](images/s-l1600.jpg)
 
