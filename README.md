@@ -5,23 +5,24 @@ A Raspberry Pi daemon to drive a 32x16 red/green LED matrix.
 
 ## Pinouts
 
-| Desc | Pin | Pin | Desc |
-|-----:|:---:|:---:|------|
-|  GND |  1  |  2  | A    |
-|  GND |  3  |  4  | B    |
-|  GND |  5  |  6  | C    |
-|   OE |  7  |  8  | D    |
-|    R |  9  |  10 | G    |
-|  VCC |  11 |  12 | VCC  |
-|  GND |  13 |  14 | STB  |
-|  GND |  15 |  16 | SCK  |
-
-* __A, B, C, D__ - row select with 74HC138
-* __OE__ - 74HC595 Ouput Enable(Active Low)
-* __STB__ - 74HC595 Strobe / Data Latch
-* __SCK__ - 74HC595 Clock Input
-* __R__ - data input for 74HC595 (RED section / 4*74HC595)
-* __G__ - data input for 74HC595 (GREEN section / 4*74HC595)
+| Board Pin | Name | Remarks                                            | RPi Pin | RPi Function |
+|:---------:|------|----------------------------------------------------|:-------:|--------------|
+| 1         | GND  | Ground                                             | 6       | GND          |
+| 3         | GND  | Ground                                             | 6       | GND          |
+| 5         | GND  | Ground                                             | 6       | GND          |
+| 7         | OE   | 74HC595 Output Enable (Active Low)                 | tbc     |              |
+| 9         | R    | data input for 74HC595 (RED section / 4*74HC595)   | tbc     |              |
+| 11        | VCC  | +5V Power                                          | 2       | 5V0          |
+| 13        | GND  | Ground                                             | 6       | GND          |
+| 15        | GND  | Ground                                             | 6       | GND          |
+| 2         | A    | row select wih 74HC138                             | tbc     |              |
+| 4         | B    | row select wih 74HC138                             | tbc     |              |
+| 6         | C    | row select wih 74HC138                             | tbc     |              |
+| 8         | D    | row select wih 74HC138                             | tbc     |              |
+| 10        | G    | data input for 74HC595 (GREEN section / 4*74HC595) | tbc     |              |
+| 12        | VCC  | +5V Power                                          | 2       | 5V0          |
+| 14        | STB  | 74HC595 Strobe / Data Latch                        | tbc     |              |
+| 16        | SCK  | 74HC595 Clock Input                                | tbc     |              |
 
 ## References
 
